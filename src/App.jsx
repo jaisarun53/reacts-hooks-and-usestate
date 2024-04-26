@@ -3,13 +3,15 @@ import Count from "./Count.jsx";
 import "./App.css";
 import CounteeExample from "./CounteeExample.jsx";
 import DisplayName from "./DisplayName.jsx";
+import StudentDetails from "./StudentDetails.jsx";
 
 const App = () => {
   return (
     <div>
       {/* <Count /> */}
       {/* <CounteeExample /> */}
-      <DisplayName />
+      {/* <DisplayName /> */}
+      <StudentDetails />
     </div>
   );
 };
