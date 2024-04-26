@@ -5,13 +5,12 @@ const DisplayName = () => {
   return (
     <div>
       <h1>{studentName}</h1>
-      <button
-        onClick={() => {
-          setstudentName("Payal");
+      <input
+        type="text"
+        onChange={(event) => {
+          console.log(event.target.value);
         }}
-      >
-        Change Name
-      </button>
+      />
     </div>
   );
 };
